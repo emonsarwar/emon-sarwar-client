@@ -10,20 +10,17 @@ export default function Contact() {
 
   const submit = async (e) => {
   e.preventDefault();
-  setLoading(true);
-  console.log("Submitting form:", form);  
+  setLoading(true);  
   try {
-    const res = await fetch("https://emon-sarwar-client.vercel.app/api/contact", {
+    const res = await fetch("https://emon-sarwar-server.vercel.app/api/contact", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)
     });
-    console.log("Response status:", res);
-    console.log("Response status:", res.status);
     
     if (res.ok) {
       setStatus("SUCCESS");
-      setForm({ name: "", email: "", message: "" });
+      // setForm({ name: "", email: "", message: "" });
     } else {
       setStatus("ERROR");
     }
@@ -42,7 +39,7 @@ export default function Contact() {
       {/* Background Ambient Glow */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-sky-600/5 blur-[120px] rounded-full pointer-events-none" />
       
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Side: Info */}

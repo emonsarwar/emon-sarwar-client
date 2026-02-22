@@ -16,11 +16,12 @@ import CustomCursor from './components/CustomCursor';
 import Toolbar from './components/Toolbar';
 import './App.css';
 import Contact from './components/Contact';
+import Loading from './components/Loading';
 
 function App() {
   return (
-    <div className="relative bg-slate-950 text-white font-sans overflow-x-hidden scroll-smooth">
-      {/* <Loading /> */}
+    <div className="relative bg-slate-950 text-white font-sans overflow-x-hidden scroll-smooth ">
+      <Loading />
       <CustomCursor />
       <ScrollProgress />
       <ParticlesBackground />

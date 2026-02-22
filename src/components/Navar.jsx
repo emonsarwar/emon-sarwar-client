@@ -19,7 +19,7 @@ export default function Navbar() {
     <motion.nav 
       initial={{ y: 0 }}
       animate={{ y: 0 }}
-      className="w-full z-50 max-w-7xl mx-auto py-3 fixed top-0 left-0 right-0"
+      className="w-full z-50 max-w-7xl mx-auto px-4 py-3 fixed top-0 left-0 right-0"
     >
       {/* Glassmorphic Background Container */}
       <div className="px-6 py-3 rounded-2xl bg-slate-900/70 backdrop-blur-md border border-slate-700/50 shadow-xl flex items-center justify-between">

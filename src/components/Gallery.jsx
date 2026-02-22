@@ -29,7 +29,7 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      className="relative py-28 max-w-7xl mx-auto text-white overflow-hidden"
+      className="relative py-28 max-w-7xl mx-auto px-4 text-white overflow-hidden"
     >
       <div className="relative z-10">
         {/* Heading */}

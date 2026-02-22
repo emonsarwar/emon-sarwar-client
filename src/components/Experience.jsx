@@ -102,7 +102,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative py-28 max-w-7xl mx-auto text-white"
+      className="relative py-28 max-w-7xl mx-auto px-4 text-white"
     >
       <div className="">
         {/* Header */}

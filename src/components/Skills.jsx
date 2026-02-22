@@ -29,7 +29,7 @@ export default function Skills() {
   return (
     <motion.section
       id="skills"
-      className="py-24 bg-slate-950 text-white overflow-hidden max-w-7xl mx-auto"
+      className="py-24 bg-slate-950 text-white overflow-hidden max-w-7xl mx-auto px-4"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}

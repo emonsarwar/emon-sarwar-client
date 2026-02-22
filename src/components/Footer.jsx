@@ -23,7 +23,7 @@ export default function Footer() {
         </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-12 mb-16">
           
           {/* Logo/Name Branding */}

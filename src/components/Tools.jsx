@@ -34,7 +34,7 @@ export default function Tools() {
   };
 
   return (
-    <section id="tools" className="py-24 max-w-7xl mx-auto bg-slate-950 text-white">
+    <section id="tools" className="py-24 max-w-7xl mx-auto px-4 bg-slate-950 text-white">
       <div className="max-w-6xl mx-auto">
         
         {/* Section Header */}

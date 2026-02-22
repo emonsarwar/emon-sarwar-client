@@ -46,7 +46,7 @@ export default function Design() {
   return (
     <motion.section
       id="design"
-      className="py-24 max-w-7xl mx-auto bg-slate-950 text-white overflow-hidden"
+      className="py-24 max-w-7xl mx-auto px-4 bg-slate-950 text-white overflow-hidden"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}

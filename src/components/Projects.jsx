@@ -36,8 +36,8 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-24 bg-slate-950 text-white overflow-hidden max-w-7xl mx-auto">
-      <div className="max-w-7xl mx-auto">
+    <section id="projects" className="py-24 bg-slate-950 text-white overflow-hidden max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         
         {/* Section Header */}
         <div className="mb-16">

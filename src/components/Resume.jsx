@@ -44,7 +44,7 @@ export default function Resume() {
   return (
     <motion.section
       id="resume"
-      className="py-24 max-w-7xl mx-auto text-white min-h-screen"
+      className="py-24 max-w-7xl mx-auto px-4 text-white min-h-screen"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
